@@ -38,6 +38,6 @@ jobs:
       # 6️⃣ Run docker-compose test
       - name: Start application with Docker Compose
         run: |
-          docker-compose up -d
+          docker compose up -d
           sleep 30
           docker ps
